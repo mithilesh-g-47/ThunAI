@@ -16,7 +16,7 @@ POLICE_CONTACT_NUMBER = '+917305588655'
 
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:
-    cred = credentials.Certificate('thunai-99dc8-firebase-adminsdk-q5f9q-889676b91f.json')
+    cred = credentials.Certificate('thunai-99dc8-firebase-adminsdk-q5f9q-424d9619f2.json')
     firebase_admin.initialize_app(cred)
 
 # Initialize Firestore
@@ -120,7 +120,7 @@ def find_nearby_places(lat, lng, place_type):
         st.error(f"Error fetching nearby places: {e}")
         return []
 # App layout
-st.title("Thunai")
+st.title("ThunAI")
 
 # Create tabs
 tab1, tab2 = st.tabs(["Home", "Forum"])
