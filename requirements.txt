@@ -1,0 +1,7 @@
+streamlit==1.18.0
+googlemaps==4.7.1
+folium==0.14.0
+streamlit-folium==0.8.0
+streamlit-js-eval==0.1.1
+firebase-admin==5.2.0
+twilio==7.18.0
